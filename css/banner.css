@@ -2,33 +2,41 @@
     padding-top: 48px;
     padding-bottom: 48px;
     display: flex;
-
-}
-
-.banner_conteudo {
-    align-items: baseline;
-
 }
 
 .banner__titulo {
     color: var(--primary-200);
     font-weight: 900;
-    font-size: 80px;
+    font-size: 70px;
     margin-bottom: 20px;
-    line-height: 100px;
-
+    line-height: 95px;
+    margin-top: 50px;
 }
 
 .banner__texto {
     line-height: normal;
-    margin-bottom: 16px;
+    margin-bottom: 70px;
     padding-right: 15px;
+    margin-top: 70px;
+    font-size: 22px;
+    font-weight: 500;
+}
 
+.banner__btn {
+    padding: 16px 38px;
+    font-size: 28px;
+    text-align: center;
+    transition: 0.2s;
+    background-size: 200% auto;
+    color: var(--neutral-100);
+    border-radius: 10px;
+    background-image: linear-gradient(to right, var(--primary-100) 0%, var(--primary-50) 50%, var(--primary-100) 100%);
+}
+
+.banner__btn:hover {
+    background-position: right center;
 }
 
 .banner__img {
     width: 60%;
-
-
-
 }
