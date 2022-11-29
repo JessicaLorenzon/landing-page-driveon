@@ -1,0 +1,34 @@
+.banner {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: flex;
+
+}
+
+.banner_conteudo {
+    align-items: baseline;
+
+}
+
+.banner__titulo {
+    color: var(--primary-200);
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 20px;
+    line-height: 100px;
+
+}
+
+.banner__texto {
+    line-height: normal;
+    margin-bottom: 16px;
+    padding-right: 15px;
+
+}
+
+.banner__img {
+    width: 60%;
+
+
+
+}

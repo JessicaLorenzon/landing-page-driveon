@@ -1,0 +1,107 @@
+.cabecalho {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    padding-top: 55px;
+    padding-bottom: 50px;
+}
+
+.cabecalho__navegacao {
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    margin-left: 100px;
+}
+
+.cabecalho__link {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 100px;
+    font-weight: 550;
+}
+
+.cabecalho__link a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+}
+
+.cabecalho__link a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: var(--primary-200);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.cabecalho__link a:hover::after,
+.cabecalho__link a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+    transform: scale(1);
+}
+
+.cabecalho__btns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 32px;
+}
+
+.cabecalho__btn {
+    margin-left: 40px;
+    font-family: var(--montserrat);
+    background-color: var(--neutral-100);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__btn--login {
+    border: 1px solid var(--neutral-100);
+    color: var(--primary-200);
+    border-radius: 8px;
+    padding: 10px 35px;
+    height: 18px;
+    transition: .2s;
+}
+
+.cabecalho__btn--login:hover {
+    border: 1px solid var(--neutral-200);
+    color: var(--primary-200);
+    border-radius: 8px;
+    padding: 10px 35px;
+    height: 18px;
+}
+
+.cabecalho__btn--login::before {
+    content: '';
+    background-image: url(../img/icone-login.png);
+    width: 20px;
+    height: 28px;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+.cabecalho__btn--signup {
+    border: 1px solid var(--neutral-200);
+    color: var(--primary-100);
+    border-radius: 8px;
+    padding: 10px 35px;
+    width: 82px;
+    height: 18px;
+}
+
+.cabecalho__btn--signup:hover {
+    transition: color .2s;
+    background-color: var(--primary-100);
+    color: var(--neutral-100);
+}
