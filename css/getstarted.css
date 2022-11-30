@@ -1,8 +1,8 @@
 .getstarted__titulo::before {
     content: '';
     background-image: url(../img/linha-reta.png.jpg);
-    width: 185px;
-    height: 20px;
+    width: 210px;
+    height: 18px;
     margin-right: 320px;
     margin-bottom: 95px;
 }

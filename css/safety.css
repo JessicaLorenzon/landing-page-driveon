@@ -1,0 +1,97 @@
+.safety {
+    padding-top: 48px;
+    padding-bottom: 200px;
+    display: flex;
+    height: 1024px;
+    align-items: center;
+}
+
+.safety__conteudo {
+    width: 546px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1000px;
+    margin-left: 90px;
+}
+
+.safety__conteudo::before {
+    content: '';
+    background-image: url(../img/linha-reta.png.jpg);
+    width: 210px;
+    height: 18px;
+    margin-top: 260px;
+    
+}
+
+.safety__titulo {
+    color: var(--primary-200);
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 90px;
+    line-height: normal;
+    width: 330px;
+
+}
+
+.safety__texto {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 500;
+    margin-top: 130px;
+    width: 870px;
+}
+
+.safety__btn {
+    font-size: 30px;
+    color: var(--primary-100);
+    margin-top: 65px;
+    margin-bottom: 50px;
+    display: block;
+    position: relative;
+    padding: 3px 0;
+    width: 362px;
+}
+
+.safety__btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-100);
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+    transform: scale(0);
+    transform-origin: center;
+}
+
+.safety__btn:hover::after,
+.safety__btn:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 3px, 0);
+    transform: scale(1);
+}
+
+
+.safety__btn--here {
+    color: var(--primary-200);
+    font-weight: 900;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.safety__btn--here::after {
+    content: '';
+    background-image: url(../img/linha-reta.png.jpg);
+    width: 90px;
+    height: 8px;
+    background-size: contain;
+}
+
+.safety__img {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    margin-top: 240px;
+}
