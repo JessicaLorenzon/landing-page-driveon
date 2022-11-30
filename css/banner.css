@@ -1,7 +1,12 @@
 .banner {
     padding-top: 48px;
-    padding-bottom: 48px;
+    padding-bottom: 200px;
     display: flex;
+    height: 1024px;
+}
+
+.banner__conteudo {
+    width: 546px;
 }
 
 .banner__titulo {
@@ -38,5 +43,9 @@
 }
 
 .banner__img {
-    width: 60%;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
 }
+

@@ -21,6 +21,6 @@ body {
 }
 
 .container {
-    padding-right: 5%;
-    padding-left: 8%;
+    width: 1630px;
+    margin: 0 auto;
 }

@@ -1,0 +1,47 @@
+.getstarted__titulo::before {
+    content: '';
+    background-image: url(../img/linha-reta.png.jpg);
+    width: 185px;
+    height: 20px;
+    margin-right: 320px;
+    margin-bottom: 95px;
+}
+
+.getstarted__titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-200);
+    font-size: 50px;
+    margin-bottom: 250px;
+}
+
+.getstarted__solucoes {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.getstarted__solucoes h3 {
+    color: var(--primary-200);
+    font-size: 35px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    padding: 0 28px;
+    line-height: normal;
+
+}
+
+.getstarted__solucoes p {
+    line-height: normal;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+.getstarted__solucoes div {
+    width: 308px;
+}

@@ -1,0 +1,27 @@
+.learnmore {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.learnmore__conteudo {
+    width: 546px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.learnmore__conteudo::before {
+    content: '';
+    background-image: url(../img/linha-reta.png.jpg);
+    width: 185px;
+    height: 20px;
+    margin-top: 50px;
+}
+
+
+
+.learmore__img {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
