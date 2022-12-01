@@ -11,26 +11,28 @@
     color: var(--primary-200);
     font-size: 50px;
     font-weight: 500;
-    width: 390px;
+    text-align: left;
+    margin-right: 100px;
 }
 
-.register__partner {
+.register a {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    position: relative;
+    transition: all .2s ease;
 }
 
-.register__journey {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-right: 195px;
-}
-
-.register__partner::after {
+.register a::after {
     content: '';
     background-image: url(../img/linha-reta.png.jpg);
     width: 210px;
     height: 18px;
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+}
+
+.register a:hover {
+    opacity: 0.5;
 }

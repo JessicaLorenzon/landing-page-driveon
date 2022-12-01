@@ -6,14 +6,12 @@
     height: 945px;
 }
 
-.app__conteudo {
+.app .container {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     padding-top: 360px;
     margin-right: 285px;
-
-    width: 546px;
 }
 
 .app__titulo {
@@ -26,22 +24,24 @@
 
 .app__btn {
     display: flex;
+    gap: 80px;
 }
 
 .app__btn--download {
-    display: inline-block;
-    margin-right: 195px;
+    padding: 16px 38px;
+    font-size: 16px;
+    color: var(--neutral-100);
+    border-radius: 10px;
+    background-color: black;
+    transition: all .2s ease;
 }
 
 .app__btn--download:hover {
     opacity: 0.7;
 }
 
-.app__btn a {
-    padding: 16px 38px;
+.app__btn--download strong {
+    display: block;
+    text-align: left;
     font-size: 28px;
-    text-align: center;
-    color: var(--neutral-100);
-    border-radius: 10px;
-    background-color: black;
 }
