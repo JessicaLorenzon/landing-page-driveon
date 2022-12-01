@@ -1,7 +1,7 @@
 .footer {
     background-image: url(../img/fundo-footer.png.jpg);
     width: 100%;
-    margin-top: 300px;
+    margin-top: 200px;
     background-repeat: no-repeat;
     color: var(--neutral-100);
 }
