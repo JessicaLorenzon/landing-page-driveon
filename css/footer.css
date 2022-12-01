@@ -1,0 +1,80 @@
+.footer {
+    background-image: url(../img/fundo-footer.png.jpg);
+    width: 100%;
+    margin-top: 300px;
+    background-repeat: no-repeat;
+    color: var(--neutral-100);
+}
+
+.footer .container {
+    padding: 0 20px;
+    width: 1400px;
+}
+
+.footer h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.footer li {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.footer__conteudo {
+    display: flex;
+    padding-top: 150px
+}
+
+.footer__aboutus {
+    margin-right: 285px;
+}
+
+.footer__product {
+    width: 300px;
+}
+
+.footer__options {
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    line-height: 60px;
+}
+
+.footer__options a {
+    display: flex;
+    align-items: center;
+}
+
+.footer__options span {
+    margin-left: 20px;
+}
+
+.footer__social {
+    color: var(--neutral-100);
+    margin-top: 80px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin-right: 20px;
+}
+
+.footer__redes {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer__redes a {
+    margin-left: 40px;
+}
+
+.footer a:hover {
+    opacity: 0.7;
+}

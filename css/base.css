@@ -18,9 +18,11 @@ body {
     font-family: var(--montserrat);
     color: var(--neutral-300);
     font-weight: bold;
+
 }
 
 .container {
     width: 1630px;
     margin: 0 auto;
+
 }
