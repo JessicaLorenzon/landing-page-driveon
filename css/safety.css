@@ -77,6 +77,11 @@
     font-weight: 900;
     display: inline-flex;
     flex-direction: column;
+    transition: all .2s ease;
+}
+
+.safety__btn--here:hover {
+    opacity: 0.7;
 }
 
 .safety__btn--here::after {

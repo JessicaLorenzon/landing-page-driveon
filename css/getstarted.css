@@ -13,7 +13,7 @@
     align-items: center;
     color: var(--primary-200);
     font-size: 50px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .getstarted__solucoes {
@@ -44,4 +44,15 @@
 
 .getstarted__solucoes div {
     width: 308px;
+    background: var(--neutral-100);
+    border-radius: 8px;
+    transition: all .2s ease;
+    border: 1px solid var(--neutral-100);
+    padding-top: 20px;
+}
+
+.getstarted__solucoes div:hover {
+    border: 1px solid var(--neutral-200);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px var(--neutral-200);
 }
